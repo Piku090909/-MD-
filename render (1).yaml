@@ -9,3 +9,6 @@ services:
   buildCommand: yarn
   startCommand: 'yarn start '
 version: "1"
+git add render.yaml
+git commit -m "https://alex-piku-md.onrender.com"
+git push
