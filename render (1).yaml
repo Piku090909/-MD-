@@ -1,0 +1,11 @@
+# Exported from Render on 2024-05-10T06:11:47Z
+services:
+- type: web
+  name: alex-piku-MD
+  runtime: node
+  repo: https://github.com/Piku090909/alex-piku-MD
+  plan: free
+  region: oregon
+  buildCommand: yarn
+  startCommand: 'yarn start '
+version: "1"
